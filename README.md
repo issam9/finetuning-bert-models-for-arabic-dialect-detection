@@ -2,7 +2,7 @@
 Finetuning of Arabert, Dziribert and Arabic Bert for dialect detection.
 
 ### Dataset
-I used the [MSDA](https://msda.um6p.ma/home) Dialect Detection dataset which can be found on [this website](https://msda.um6p.ma/msda_datasets) along with other datasets, you can apply the same finetuning pipeline on the other text classification datasets that you will find on the website, you just might need to take into consideration that they are umbalanced.
+I used the [MSDA](https://msda.um6p.ma/home) Dialect Detection dataset which can be found on [this website](https://msda.um6p.ma/msda_datasets) along with other datasets, you can apply the same finetuning process on the other text classification datasets that you will find on the website, you just might need to take into consideration that they are umbalanced.
 
 ![](tweet_dist.png)
 
@@ -28,7 +28,6 @@ Github Repo: https://github.com/alger-ia/dziribert
 HuggingFace: https://huggingface.co/alger-ia/dziribert   
 
 #### Arabic Bert
-Paper:   
 Github Repo: https://github.com/alisafaya/Arabic-BERT   
 HuggingFace: https://huggingface.co/asafaya/bert-base-arabic   
 
