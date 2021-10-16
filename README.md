@@ -33,7 +33,7 @@ HuggingFace: https://huggingface.co/asafaya/bert-base-arabic
 
 ---
 ### Results
-The results are of finetuning the mentionned models using the same hyperparameters.
+The results of finetuning the mentionned models using the same hyperparameters.
 | Model | Accuracy | F1 score | Precision | Recall |
 | --- | --- | --- | --- | --- |
 | Arabert | 0.82 | 0.82 | 0.82 | 0.82 |
