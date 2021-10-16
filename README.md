@@ -41,7 +41,7 @@ The results are of finetuning the mentionned models using the same hyperparamete
 | Dziribert | **0.84** | **0.84** | **0.84** | **0.84** |
 | Arabic Bert | 0.81 | 0.81 | 0.81 | 0.81 |
 
-To get a sense of where we are, here the results of the baseline models from the MSDA paper: [An open access NLP dataset for Arabic dialects :
+To get a sense of where we are, here are the results of the baseline models from the MSDA paper: [An open access NLP dataset for Arabic dialects :
 data collection, labeling, and model construction](https://arxiv.org/abs/2102.11000).
 
 ![](baseline_results.PNG)
