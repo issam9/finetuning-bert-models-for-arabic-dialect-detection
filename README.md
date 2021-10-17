@@ -33,7 +33,7 @@ HuggingFace: https://huggingface.co/asafaya/bert-base-arabic
 
 ---
 ### Results
-The results of finetuning the mentionned models using the same hyperparameters.
+The results of finetuning the mentionned models using the same hyperparameters. Dziribert being pretrained on so much less data and one dialect outperforms the other models.
 | Model | Accuracy | F1 score | Precision | Recall |
 | --- | --- | --- | --- | --- |
 | Arabert | 0.82 | 0.82 | 0.82 | 0.82 |
