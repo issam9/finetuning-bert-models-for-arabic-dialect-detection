@@ -2,7 +2,7 @@
 Finetuning of Arabert, Dziribert and Arabic Bert for dialect detection.
 
 ### Dataset
-I used the [MSDA](https://msda.um6p.ma/home) Dialect Detection dataset which can be found on [this website](https://msda.um6p.ma/msda_datasets) along with other datasets, you can apply the same finetuning process on the other text classification datasets that you will find on the website, you just might need to take into consideration that they are umbalanced.
+I used the [MSDA](https://msda.um6p.ma/home) Dialect Detection dataset which can be found on [this website](https://msda.um6p.ma/msda_datasets) along with other datasets, you can apply the same finetuning process on the other text classification datasets that you will find on the website, you just might need to take into consideration that they are imbalanced.
 
 ![](tweet_dist.png)
 
@@ -36,9 +36,9 @@ HuggingFace: https://huggingface.co/asafaya/bert-base-arabic
 The results of finetuning the mentionned models using the same hyperparameters. Dziribert being pretrained on so much less data and one dialect outperforms the other models.
 | Model | Accuracy | F1 score | Precision | Recall |
 | --- | --- | --- | --- | --- |
-| Arabert | 0.82 | 0.82 | 0.82 | 0.82 |
-| Dziribert | **0.84** | **0.84** | **0.84** | **0.84** |
-| Arabic Bert | 0.81 | 0.81 | 0.81 | 0.81 |
+| Arabert | 83.19 | 83.19 | 83.19 | 83.19 |
+| Dziribert | **84.95** | **84.95** | **84.95** | **84.95** |
+| Arabic Bert | 81.94 | 81.94 | 81.94 | 81.94 |
 
 To get a sense of where we are, here are the results of the baseline models from the MSDA paper: [An open access NLP dataset for Arabic dialects :
 data collection, labeling, and model construction](https://arxiv.org/abs/2102.11000).
