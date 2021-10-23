@@ -36,9 +36,9 @@ HuggingFace: https://huggingface.co/asafaya/bert-base-arabic
 The results of finetuning the mentionned models using the same hyperparameters. Dziribert being pretrained on so much less data and one dialect outperforms the other models.
 | Model | Accuracy | F1 score | Precision | Recall |
 | --- | --- | --- | --- | --- |
-| Arabert | 83.19 | 83.19 | 83.19 | 83.19 |
-| Dziribert | **84.95** | **84.95** | **84.95** | **84.95** |
-| Arabic Bert | 81.94 | 81.94 | 81.94 | 81.94 |
+| Arabert | 83.19 | 82.47 | 82.50 | 82.50 |
+| Dziribert | **84.95** | **84.18** | **84.37** | **84.07** |
+| Arabic Bert | 81.94 | 81.32 | 81.57 | 81.16 |
 
 To get a sense of where we are, here are the results of the baseline models from the MSDA paper: [An open access NLP dataset for Arabic dialects :
 data collection, labeling, and model construction](https://arxiv.org/abs/2102.11000).
